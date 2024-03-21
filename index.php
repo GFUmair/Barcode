@@ -9,6 +9,6 @@ if ($_GET['text']) {
     header('Content-Type: image/png'); 
     imagepng(Code128Barcode::generate($_GET['text']));
     
-    imagedestroy($png);
+    //imagedestroy($png);
 
 } ?>
