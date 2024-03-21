@@ -1,6 +1,6 @@
 Barcode
 <?php
-
+var_dump(extension_loaded('gd'));
 if ($_GET['text']) {
 
     include('Code128Barcode.php');
