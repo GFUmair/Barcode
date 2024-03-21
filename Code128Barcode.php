@@ -39,7 +39,7 @@ class Code128Barcode
 
         $dimensions = self::getDimensions($density, $code);
 
-        $width1 = (((11 * strlen($code)) + 35);
+        $width1 = ((11 * strlen($code)) + 35);
         // create a true color image at the specified height and width
         $image = imagecreatetruecolor($width1, 50);
 
