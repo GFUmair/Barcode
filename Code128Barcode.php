@@ -39,8 +39,9 @@ class Code128Barcode
 
         $dimensions = self::getDimensions($density, $code);
 
+        $width1 = (((11 * strlen($code)) + 35);
         // create a true color image at the specified height and width
-        $image = imagecreatetruecolor(200, 50);
+        $image = imagecreatetruecolor($width1, 50);
 
         //Fill the image white
         //Set the line thickness (based on $density)
