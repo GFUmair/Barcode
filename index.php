@@ -1,3 +1,4 @@
+Barcode
 <?php
 
 if ($_GET['text']) {
