@@ -7,6 +7,4 @@ if ($_GET['text']) {
     header('Content-Type: image/png'); 
     imagepng(Code128Barcode::generate(strtoupper($_GET['text'])));
     
-    //imagedestroy($png);
-
 } ?>
